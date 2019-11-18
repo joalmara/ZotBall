@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{CF997592-DC71-9279-3762-F2618AC4844C}</ProjectGuid>
+    <ProjectGuid>{9B7B83CB-200D-F940-D58D-EC906A018CB8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -70,20 +70,26 @@
     <Compile Include="Assets\PickBanana.cs" />
     <Compile Include="Assets\PlayerController.cs" />
     <Compile Include="Assets\Timer.cs" />
+    <None Include="Assets\Trees_WorldSpace\Shaders\BarkShaderAS.shader" />
+    <None Include="Assets\Trees_WorldSpace\WorldSpaceTrees_Doc.txt" />
+    <None Include="Assets\Trees_WorldSpace\Shaders\TreeLeafSwitcherAS.shader" />
+    <None Include="Assets\Trees_WorldSpace\Misc\Obselete_canDelete\ShaderForgeDepricated\Depricated_canDelete\SF_Dep_TreeBarkShader.shader" />
+    <None Include="Assets\WorldMaterialsFree\WorldMatFree.shader" />
+    <None Include="Assets\Trees_WorldSpace\Misc\Obselete_canDelete\ShaderForgeDepricated\Depricated_canDelete\SF_Dep_TreeLeavesSwitcher.shader" />
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/Users/jasonalmaraz/Documents/GitHub/Unity-DevelopMonkeyBallInspiredGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>/Users/jasonalmaraz/Documents/GitHub/ZotBall/ZotBall/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>/Users/jasonalmaraz/Documents/GitHub/Unity-DevelopMonkeyBallInspiredGame/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>/Users/jasonalmaraz/Documents/GitHub/ZotBall/ZotBall/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>/Users/jasonalmaraz/Documents/GitHub/Unity-DevelopMonkeyBallInspiredGame/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>/Users/jasonalmaraz/Documents/GitHub/ZotBall/ZotBall/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/jasonalmaraz/Documents/GitHub/Unity-DevelopMonkeyBallInspiredGame/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>/Users/jasonalmaraz/Documents/GitHub/ZotBall/ZotBall/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>/Users/jasonalmaraz/Documents/GitHub/Unity-DevelopMonkeyBallInspiredGame/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>/Users/jasonalmaraz/Documents/GitHub/ZotBall/ZotBall/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Hub/Editor/2018.4.10f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -290,13 +296,13 @@
       <HintPath>/Applications/Unity/Hub/Editor/2018.4.10f1/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>/Users/jasonalmaraz/Documents/GitHub/Unity-DevelopMonkeyBallInspiredGame/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>/Users/jasonalmaraz/Documents/GitHub/ZotBall/ZotBall/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>/Users/jasonalmaraz/Documents/GitHub/Unity-DevelopMonkeyBallInspiredGame/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>/Users/jasonalmaraz/Documents/GitHub/ZotBall/ZotBall/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>/Users/jasonalmaraz/Documents/GitHub/Unity-DevelopMonkeyBallInspiredGame/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>/Users/jasonalmaraz/Documents/GitHub/ZotBall/ZotBall/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>/Applications/Unity/Hub/Editor/2018.4.10f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

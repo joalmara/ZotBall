@@ -2,14 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
     public float speed;
     private Rigidbody rb;
+    private int count;
+    public Text countText;
+
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        count = 0;
+        SetCountText();
     }
 
     // Update is called once per frame
@@ -28,6 +34,8 @@ public class PlayerController : MonoBehaviour
         if(other.gameObject.CompareTag("Banana"))
         {
             other.gameObject.SetActive(false);
+            count += 1;
+            SetCountText();
         }
 
         else if (other.gameObject.CompareTag("Sea"))
@@ -45,5 +53,10 @@ public class PlayerController : MonoBehaviour
 
 
 
+    }
+
+    void SetCountText()
+    {
+        countText.text = "Count: " + count.ToString();
     }
 }
