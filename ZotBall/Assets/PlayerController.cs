@@ -47,7 +47,7 @@ public class PlayerController : MonoBehaviour
         else if (other.gameObject.CompareTag("Portal"))
         {
             Destroy(rb);
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            SceneManager.LoadScene(2);
 
         }
 
