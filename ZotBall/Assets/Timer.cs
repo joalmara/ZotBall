@@ -10,7 +10,7 @@ public class Timer : MonoBehaviour
 
     private void Start()
     {
-        SetTimer(30);
+        SetTimer(40);
     }
 
     private void Update()

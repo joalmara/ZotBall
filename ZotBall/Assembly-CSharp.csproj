@@ -63,9 +63,35 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\EndLevel.cs" />
+    <Compile Include="Assets\Assets\Animation.cs" />
+    <Compile Include="Assets\Assets\Scripts\Animations.cs" />
+    <Compile Include="Assets\Assets\Scripts\Collisions.cs" />
+    <Compile Include="Assets\Assets\Scripts\FPS.cs" />
+    <Compile Include="Assets\Assets\Scripts\GlobalInput.cs" />
+    <Compile Include="Assets\Assets\Scripts\GoalPost.cs" />
+    <Compile Include="Assets\Assets\Scripts\IMenu.cs" />
+    <Compile Include="Assets\Assets\Scripts\LevelLogic.cs" />
+    <Compile Include="Assets\Assets\Scripts\MenuSystem.cs" />
+    <Compile Include="Assets\Assets\Scripts\Movement.cs" />
+    <Compile Include="Assets\Assets\Scripts\Origin.cs" />
+    <Compile Include="Assets\Assets\Scripts\Powerups\IPowerUp.cs" />
+    <Compile Include="Assets\Assets\Scripts\Powerups\PowerupJump.cs" />
+    <Compile Include="Assets\Assets\Scripts\Powerups\PowerupLowGravity.cs" />
+    <Compile Include="Assets\Assets\Scripts\Powerups\PowerupSuperspeed.cs" />
+    <Compile Include="Assets\Assets\Scripts\Projectile.cs" />
+    <Compile Include="Assets\Assets\Scripts\QuadMovement.cs" />
+    <Compile Include="Assets\Assets\Scripts\Rotation.cs" />
+    <Compile Include="Assets\Assets\Scripts\SMBControls.cs" />
+    <Compile Include="Assets\Assets\Scripts\Spinner.cs" />
+    <Compile Include="Assets\Assets\Scripts\userInterface\BoostRecharger.cs" />
+    <Compile Include="Assets\Assets\Scripts\userInterface\HierachicalMenuSystem.cs" />
+    <Compile Include="Assets\Assets\Scripts\userInterface\StartMenu.cs" />
+    <Compile Include="Assets\Assets\Scripts\userInterface\TestAxis.cs" />
+    <Compile Include="Assets\Assets\Scripts\userInterface\TitleBall.cs" />
+    <Compile Include="Assets\Assets\Scripts\userInterface\UICard.cs" />
     <Compile Include="Assets\FollowPlayer.cs" />
     <Compile Include="Assets\Lose.cs" />
+    <Compile Include="Assets\Materials\EndLevel.cs" />
     <Compile Include="Assets\MoveScene.cs" />
     <Compile Include="Assets\PickBanana.cs" />
     <Compile Include="Assets\PlayerController.cs" />
